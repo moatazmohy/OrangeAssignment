@@ -44,7 +44,7 @@ public class TestClass {
         header.clickCartBtn();
         cartPage.clickDeleteBtn();
         actualResult = cartPage.getEmptyCartMsg();
-        Assert.assertTrue(actualResult.contains(expectedResult), "The Product has been deleted successfully");
+        Assert.assertTrue(actualResult.contains(expectedResult));
     }
 
 
